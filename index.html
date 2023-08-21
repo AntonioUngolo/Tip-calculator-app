@@ -4,22 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
     <title>Frontend Mentor | Tip calculator app</title>
   </head>
   <body class="h-screen bg-lightGreen">
-    <div class="flex flex-col md:justify-center items-center h-full gap-5 md:gap-20">
+    <div
+      class="flex flex-col md:justify-center items-center h-full gap-5 md:gap-20"
+    >
       <div id="logo">
-        <img src="/images/logo.svg" alt="" srcset="" />
+        <img src="./images/logo.svg" alt="" srcset="" />
       </div>
-      <div class="box w-full md:w-[920px] md:h-[481px] bg-white p-8 rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div
+        class="box w-full md:w-[920px] md:h-[481px] bg-white p-8 rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-4"
+      >
         <div class="box-input h-full flex flex-col justify-between gap-8">
           <div>
             <div class="flex justify-between">
@@ -42,11 +54,25 @@
             <p class="title">Select Tip %</p>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
               <button type="button" class="button-tip" data-tip="5">5%</button>
-              <button type="button" class="button-tip" data-tip="10">10%</button>
-              <button type="button" class="button-tip" data-tip="15">15%</button>
-              <button type="button" class="button-tip" data-tip="25">25%</button>
-              <button type="button" class="button-tip" data-tip="50">50%</button>
-              <input dir="rtl" type="number" name="" id="customTip" placeholder="Custom" />
+              <button type="button" class="button-tip" data-tip="10">
+                10%
+              </button>
+              <button type="button" class="button-tip" data-tip="15">
+                15%
+              </button>
+              <button type="button" class="button-tip" data-tip="25">
+                25%
+              </button>
+              <button type="button" class="button-tip" data-tip="50">
+                50%
+              </button>
+              <input
+                dir="rtl"
+                type="number"
+                name=""
+                id="customTip"
+                placeholder="Custom"
+              />
             </div>
           </div>
           <div>
@@ -55,7 +81,13 @@
               <p id="errorPeople" class="text-red-500"></p>
             </div>
             <div class="relative">
-              <input dir="rtl" type="number" name="" id="inputPeople" class="w-full h-12" />
+              <input
+                dir="rtl"
+                type="number"
+                name=""
+                id="inputPeople"
+                class="w-full h-12"
+              />
               <div class="placeholder">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16">
                   <path
@@ -67,7 +99,9 @@
             </div>
           </div>
         </div>
-        <div class="bg-darkGreen h-full w-full rounded-xl flex flex-col justify-between p-10">
+        <div
+          class="bg-darkGreen h-full w-full rounded-xl flex flex-col justify-between p-10"
+        >
           <div id="results-box" class="mb-8 md:mb-0">
             <div class="flex w-full justify-between items-center mb-6">
               <div>
@@ -91,9 +125,19 @@
       </div>
       <div class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="hover:text-strongCyan">Frontend Mentor</a>
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="hover:text-strongCyan"
+          >Frontend Mentor</a
+        >
         - Coded by
-        <a href="https://github.com/AntonioUngolo" target="_blank" class="hover:text-strongCyan">Antonio Ungolo</a>
+        <a
+          href="https://github.com/AntonioUngolo"
+          target="_blank"
+          class="hover:text-strongCyan"
+          >Antonio Ungolo</a
+        >
       </div>
     </div>
 
