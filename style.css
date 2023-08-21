@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -14,7 +14,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type='number'] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -26,7 +26,7 @@ input {
   @apply bg-lighterGreen relative appearance-none text-xl rounded focus:outline-none focus:border-strongCyan focus:ring-strongCyan focus:ring-2 px-4;
 }
 
-input[type='number']::placeholder {
+#customTip::placeholder {
   text-align: center;
 }
 
