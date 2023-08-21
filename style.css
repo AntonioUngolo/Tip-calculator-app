@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.box-input .title {
+  @apply text-darkGrayishCyan mb-4;
+}
+
+input {
+  @apply bg-lighterGreen relative appearance-none text-xl rounded focus:outline-none focus:border-strongCyan focus:ring-strongCyan focus:ring-2 px-4;
+}
+
+input[type='number']::placeholder {
+  text-align: center;
+}
+
+.placeholder {
+  @apply absolute top-2/4 left-4 -translate-y-2/4;
+}
+
+.button-tip {
+  @apply bg-darkGreen text-white py-2 rounded-md text-xl hover:bg-strongCyan hover:text-darkGreen;
+}
+
+.button-tip.active {
+  @apply bg-veryLightGreen text-darkGreen;
+}
+
+#results-box .title {
+  @apply text-white;
+}
+
+.subtitle {
+  @apply text-lightGray text-sm;
+}
+
+.result {
+  @apply text-strongCyan text-3xl md:text-5xl;
+}
+
+.btn-reset {
+  @apply bg-strongCyan w-full rounded-md h-12 uppercase text-lg transition-all duration-150 ease-in-out hover:bg-veryLightGreen;
+}
+
+.error {
+  @apply focus:border-red-600 focus:ring-red-600 focus:ring-2;
+}
