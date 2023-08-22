@@ -692,10 +692,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -2617,8 +2613,8 @@ input:focus {
     gap: 5rem;
   }
 
-  .md\:gap-0 {
-    gap: 0px;
+  .md\:gap-4 {
+    gap: 1rem;
   }
 }
 
